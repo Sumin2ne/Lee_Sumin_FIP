@@ -2,103 +2,226 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>.:Z magazine Web Site Gallery Page:.</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/xoh7tsa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Nunito+Sans:wght@200;300&family=Sen&display=swap" rel="stylesheet">
 </head>
-<!-- students must convert divs to semantic tags -->
-<body>
-	<div id="container">
+
+<body id="container">
+	<header>
+        <h1 class="hidden">
+            Welcome to Z magazine contents page
+        </h1>
         
-        <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
+        <section id="main-header" class="grid-con" style="height: 125px;">
+            <h2 class="hidden">Main Top Header</h2>
+            
+            <div id="header-logo">
+                <img src="images/logo_zm.svg" alt="Z magazine logo">
+            </div>
+
+            <div id="main-nav" class="manu">
+                    
+                <nav>
+                    <h2 class="hidden"> Top Navigation Menu</h2>
+                    
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="gallery.html">Contents</a> </li>
+                        <li><a href="#">Subscribe</a> </li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div id="search" class="icon">
+                <img src="images/search.svg" alt="search icon">
+            </div>
+            <a href="#" id="subscribe-button" class="button">
+            <h3>SUBSCRIBE NOW</h3>
+            </a>
+
+        </section> 
+    </header>   
+    
+    <main>
+        <section id="gallery-hero">
+            <h2 class="hidden">
+                Gallery page hero
+            </h2>
+
+            <div class="grid-con">
+                <div id="gallery-text" class="g-hero-text">
+                    <div id="hero_tilte">
+                        <span>Z</span> magazine
+                    </div>
+                    <p>
+                        Uniquely published in both print and digital, Z magazine has become the defining high-end magazine seller brand. Throughout print, digital, and culture, Z magazine leads creative trends.
+                        Find the contents that suit your interests.
+                    </p>
                 </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
+                
+                <div id="gallery-controls">
+                    <span id="dot1" class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
                 </div>
             </div>
-        </div> 
+        </section>
 
-        <main>
-
-            <div id="gallery-hero-con">
-                <div class="grid-con">
-                    <div id="gallery-text" class="box-color">
-                    </div>
-                    <div id="gallery-controls">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
+        <section class="grid-con" id="gallery">
+            <h2>Our contents Gallery</h2>
+            
+            <div class="gallery-box">
+                <img src="images/gallery_img/col1_row1-highlight-magazine.jpg" alt="col1_row1-image">
+                <h3>FASHIOM</h3>
+                <p>
+                    Look for 22 F/W Fashion Trend Analysis
+                </p>
             </div>
-     
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+            <div class="gallery-box">
+                <img src="images/gallery_img/col2_row1-woman-magazine.jpg" alt="col2_row1-image">
+                <h3>BEAUTY</h3>
+                <p>
+                    Want to Make a Best Christmas Ready?
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col3_row1-ring-stand.jpg" alt="col3_row1-image">
+                <h3>GIFT GUIDES 2022</h3>
+                <p>
+                    What 10 Z Editors Giving This Holiday Season
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col1_row2-cat-magazines.jpg" alt="col1_row2-image">
+                <h3>LIVING</h3>
+                <p>
+                    7 Simple Way of Live with Pets
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col2_row2-skyblue.jpg" alt="col2_row2-image">
+                <h3>TRAVEL</h3>
+                <p>
+                    The Best Travel Destination to Visit This Winter
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col3_row2-lavender.jpg" alt="col3_row2-image">
+                <h3>SHOPPING</h3>
+                <p>
+                    Here’s a List of Essential Purchases Before Camping
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col1_row3-navy.jpg" alt="col1_row3-image">
+                <h3>CULTURE</h3>
+                <p>
+                    Here's Everything Coming to Netflix in December 2022
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col2_row3-4-magazines.jpg" alt="col2_row3-image">
+                <h3>OPINION</h3>
+                <p>
+                    What’s In an Instagram Photo Dump?
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col3_row3-purfume-stand.jpg" alt="col3_row3-image">
+                <h3>BEAUTY</h3>
+                <p>
+                    How to Explore a Purfume that Suits Me Well
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col1_row4-b-music.png" alt="col1_row4-image">
+                <h3>MUSIC</h3>
+                <p>
+                    What Was the Most Embarrassing Song?
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col2_row4-greyblue.jpg" alt="col2_row4-image">
+                <h3>FASHION</h3>
+                <p>
+                    These Were the Year’s 29 Best Vintage Fashion Moments
+            </p>
                 </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
+            <div class="gallery-box">
+                <img src="images/gallery_img/col3_row4-man.jpg" alt="col3_row4-image">
+                <h3>MOVIES</h3>
+                <p>
+                    The Hollywood Biggest Night; OSCAR 2023
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col1_row5-3-grey.jpg" alt="col1_row5-image">
+                <h3>LIVING</h3>
+                <p>
+                    The Best Way of Ready for Winter Bedding
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col2_row5-livin-magazine.jpg" alt="col2_row5-image">
+                <h3>TRAVEL</h3>
+                <p>
+                    How Should We Prepare for the Next Summer Vacation?
+            </p>
                 </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-            </div>         
-        </main>
+            <div class="gallery-box">
+                <img src="images/gallery_img/col3_row5-design-magazine.jpg" alt="col3_row5-image">
+                <h3>DESIGN</h3>
+                <p>
+                    Types of Designs We Need to Approach
+                </p>
+            </div>
+        </section>         
+    </main>
 
-        <div id="footer-con">
-            <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
+    <footer class="footer">
+        <section class="grid-con" id="footer">
+            <h2 class="hidden"> Footer Navigation Menu</h2>
+
+            <div id="footer-logo" class="logo">
+                <img src="images/logo_zm.svg" alt="Z magazine logo">
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
-                </div>
+
+            <div id="footer-nav" class="menu">
+                <nav>
+                    <h2 class="hidden">Footer navigation menu
+                    </h2>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="gallery.html">Contents</a> </li>
+                        <li><a href="#">Subscribe</a> </li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </nav>
+            </div>
+                
+            <div id="footer-newsletter" class="newsletter">
+                <p>
+                    Subscribe To Z magazine
+                </p>
+                <span>Newsletter</span>
+            </div>
+        </section>
+
+        <div class="grid-con" id="email-box">
+            <input type="email" id="sub-email" placeholder="  Enter your email address…">
+            <input id="submit_footer" name="submit" type="submit" value="SUBMIT">
+
+            <div id="footer-social" class="icon">
+                <img src="images/facebook.svg" alt="facebook icon">
+                <img src="images/instargram.svg" alt="instargram icon">
+                <img src="images/twitter.svg" alt="twiter icon">
             </div>
         </div>
-
-    </div><!--end container-->  
+    </footer>
 </body>
 </html>

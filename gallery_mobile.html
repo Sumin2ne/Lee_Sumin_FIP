@@ -2,70 +2,134 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>
+    .:Z magazine Mobile Gallery Page:.
+</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/xoh7tsa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Nunito+Sans:wght@200;300&family=Sen&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- students must convert divs to semantic tags -->
-	<div id="container">
-        
-        <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
-                 <div id="mobile-nav">
-                    <span class="burger"></span>
-                    <span class="burger"></span>
-                    <span class="burger"></span>
-                 </div>
-            </div>    
-        </div> 
 
-        <main>
-            <div id="hero-gallery-con">
-                <div class="grid-con">
-                    <div id="hero-gallery-text" class="box-color">
-                    </div>
-                    <div id="gallery-controls">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                    </div>
-                </div>
+
+<body id="container">
+    <h1 class="hidden">Welcome to Z magazine contents page</h1>
+    
+    <header id="header">
+        <section id="main-header" class="grid-con">
+            <h2 class="hidden">
+                Mobile gallery page Header
+            </h2>
+            
+            <img src="images/logo_zm.svg" alt="main logo" id="header-logo" class="main-logo">
+
+            <div id="mobile-nav">
+                <span class="burger"></span>
+                <span class="burger"></span>
+                <span class="burger"></span>
             </div>
+        </section>    
+    </header> 
 
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-            </div>              
-        </main>
-
-        <div id="footer-con">
+    <main>
+        <section id="gallery-hero">
+            <h2 class="hidden">
+                Mobile gallery page hero
+            </h2>
+            
             <div class="grid-con">
-                <div id="footer-box">
-                </div>
-                <div id="footer-newsletter">
-                </div>
-                <div id="footer-newsletter2">
+                <div id="gallery-text" class="g-hero-text">
+                    <h3 id="hero_tilte">
+                        <span>Z</span> magazine</h3>
+                    <p> 
+                        Uniquely published in both print and digital, Z magazine has become the defining high-end magazine seller brand. Throughout print, digital, and culture, Z magazine leads creative trends.
+                        Find the contents that suit your interests.
+                    </p>
+                
+                    <div id="rotation">
+                        <span id="dot1"  class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div> 
+        </section>
+
+        <section class="grid-con" id="gallery">
+            <h2>Our contents Gallery</h2>
+            
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row1-highlight-magazine.jpg" alt="1-gallery-image">
+                <h3>FASHIOM</h3>
+                <p>
+                    Look for 22 F/W Fashion Trend Analysis
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row2-woman-magazine.jpg" alt="2-gallery-image">
+                <h3>BEAUTY</h3>
+                <p>
+                    Want to Make a Best Christmas Ready?
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row3-cat-magazines.jpg" alt="3-gallery-image">
+                <h3>LIVING</h3>
+                <p>
+                    7 Simple Way of Live with Pets
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row4-lavender.jpg" alt="4-gallery-image">
+                <h3>SHOPPING</h3>
+                <p>
+                    Here’s a List of Essential Purchases Before Camping
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row5-greyblue.jpg" alt="5-gallery-image">
+                <h3>FASHION</h3>
+                <p>
+                    These Were the Year’s 29 Best Vintage Fashion Moments
+                </p>
+            </div>
+            <div class="gallery-box">
+                <img src="images/mobile-gallery_img/row6-ring-stand.jpg" alt="6-gallery-image">
+                <h3>GIFT GUIDES 2022</h3>
+                <p>
+                    What 10 Z Editors Giving This Holiday Season
+                </p>
+            </div>
+        </section>              
+    </main>
+
+    <footer id="footer-con">
+        <section class="grid-con">
+            <h2 class="hidden">
+                Mobile gallery page footer
+            </h2>
+
+            <div id="footer-box">
+                <img src="images/logo_zm.svg" alt="main logo" id="footer-logo" class="main-logo">
+            </div>
+
+            <div id="footer-social" class="icon">
+                <img src="images/facebook.svg" alt="facebook icon">
+                <img src="images/instargram.svg" alt="instargram icon">
+                <img src="images/twitter.svg" alt="twiter icon">
+            </div>
+
+            <p id="newsletter-text">
+                Subscribe To Z magazine
+                Newsletter
+            </p>
+
+            <div id="newsletter-sub">
+                <input type="email" id="sub-email" placeholder="  Enter your email address…">
+                <input id="submit_footer" name="submit" type="submit" value="SUBMIT">
+            </div>  
+        </section>
+    </footer>
 </body>
 </html>
