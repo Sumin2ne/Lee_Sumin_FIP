@@ -2,76 +2,180 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>.:Z magazine Web Site:.</title>
 <link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/xoh7tsa.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Nunito+Sans:wght@200;300&family=Sen&display=swap" rel="stylesheet">
 </head>
-<!-- students must convert divs to semantic tags -->
-<body>
-	<div id="container">
-        
-        <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
-                </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
-            </div>
-        </div> 
 
-        <main>
-            <div class="grid-con" id="hero">
-                <div id="hero-text" class="box-color">
-                </div>
-                <img src="https://via.placeholder.com/674x582" alt="image" id="hero-image">
-            </div>  
+<body id="container">
+    <h1 class="hidden">
+                Welcome to Z magazine Home page</h1>
+	<header>
+        <section id="main-header" class="grid-con">
+            <h2 class="hidden">Main top header Section</h2>
 
-            <div class="grid-con" id="products">
-                <h2>Blandit At Tuctor</h2>
-                <div class="product-box" id="product1">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product2">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product3">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
+            <div id="header-logo" class="logo">
+                <img src="images/logo_zm.svg" alt="Z magazine logo">
             </div>
 
-            <h2 id="about-title">Blandit At Tuctor</h2>
-            <div id="about-con">
-                <div class="grid-con" id="about">
-                    <div id="about-text" class="box-color">
+            <section id="main-nav" class="manu">
+                <h2 class="hidden">
+                Top Navigation Menu</h2>
+                    <nav>
+                        <h3 class="hidden">Top clasification manu</h3>
+                        <ul>
+                            <li><a href="index.html">About Us</a></li>
+                            <li><a href="gallery.html">Contents</a> </li>
+                            <li><a href="#">Subscribe</a> </li>
+                            <li><a href="#">Contact Us</a> </li>
+                        </ul>
+                    </nav>
+            </section>
+
+            <div id="search" class="icon">
+                <img src="images/search.svg" alt="search icon">
+            </div>
+            <a href="#" id="subscribe-button" class="button">
+                <h3>SUBSCRIBE NOW</h3>
+            </a>
+
+        </section> 
+    </header>
+
+    <main>
+        <section class="grid-con" id="hero">
+            <h2 class="hidden">Main-hero</h2>
+            <article id="hero-text" class="hero-text">
+                <h3>
+                    <span>S</span>ubscribe
+                </h3>
+                <h4>
+                    to our magazine to add fun to your daily life
+                </h4>
+                <p>
+                    Z magazine is the most influential magazine seller. We covers everything from the latest looks of fashion and beauty to breaking cultural and social trends, and is recognized for its unique perspective and amazing visuals. 
+                    Z Magazine is famous for its multimedia brand that communicates with audiences through monthly magazines, websites, mobile apps, and SMS.
+                </p>
+
+                <a href="#" id="button-read_story" class="button">
+                    <h5>Read Story</h5>
+                </a>
+            </article>
+            <img src="images/hero_magazine-shelve.png" alt="magazines shelve" id="hero-image">
+        </section>  
+
+        <section class="grid-con" id="latest-story">
+            <h2>LATEST STORIES</h2>
+                <div class="story-box" id="col1">
+                    <img src="images/col1_autumn_merry-go-round.jpg" alt="latest_story-image1">
+                    <h3>CULTURE</h3>
+                    <p>Explore Thing To Do
+                        2022’ Autumn in London
+                    </p>
+                </div>
+                <div class="story-box" id="col2">
+                    <img src="images/col2_cosmetic-products.jpg" alt="latest_story-image2">
+                    <h3>BEAUTY</h3>
+                    <p>Winter Makeup Trend to Try Now, According to Pros
+                    </p>
+                </div>
+                <div class="story-box" id="col3">
+                    <img src="images/col3_celebrity-fashion.jpg" alt="latest_story-image3">
+                    <h3>BEAUTY</h3>
+                    <p>At 2022 Met Gala, 
+                    Look Celebrity dress&outfit
+                    </p>
+                </div>
+        </section>
+        <section id="editorial-leaders" class="grid-con">
+            <h2>OUR EDITORIAL LEADERS</h2>
+            <article id="leaders-con">
+                <h2 class="hidden">Story about editorial leaders</h2>
+                <section class="grid-con">
+                    <div id="about-text" class="about">
+                        <h3 id="about-title">
+                            Our Greatest Global Editorial Leaders 
+                        </h3>
+                        <p id="about-p">
+                            Our editors are always traveling around the world to publish influential and interesting content in fashionable magazines. The footprints of our publication are leading the fashion. The inspirational editorial of Z magazine gives readers a unique and relevant style perspective on both print and multimedia platforms, including websites, mobile and social media.
+                        </p>
+                        <a href="#s" id="button2-read_story"
+                        class="button">
+                            <h4>Read Story</h4>
+                        </a>
                     </div>
-                    <img src="https://via.placeholder.com/674x700" alt="image" id="about-image">
+                    <img src="images/leaders.png" alt="editorial-leaders" id="leaders-image">
+                </section>
+            </article>
+        </section>
+
+        <section class="grid-con" id="contact">
+            <h2 class="hidden">Z magazine Contact information</h2>
+            <article id="contact-text">
+                <h2 id="contact-title">Contact Us</h2>
+                <p>
+                    Please send us your feelings  with all questions, concerns, or technical issues. so that we can do better It helps us develop and move forward in a better direction.
+                    We can’t always write back to everyone, but we promise to read all our messages.
+                </p>
+                <p id="email-address">
+                    contact@zmagazine.com
+                </p>
+            </article>
+
+            <div id="contact-form" class="contact-box">
+                <div class="input_box">
+                    <input type="text" id="first_name" placeholder="  Enter your First Name…">
+                    <input type="text" id="last_name" placeholder="  Enter your Last Name…">
+                    <input type="email" id="email" placeholder="  Enter your Email Address…">
+                    <input type="text" id="message" placeholder="  Enter your Message…">
+                    <input id="submit" name="submit" type="submit" value="SUBMIT">
+                </div>
+                    
+            </div>
+        </section> 
+    </main>
+
+
+    <footer class="footer">
+        <section class="grid-con" id="footer">
+            <h2 class="hidden"> Footer Navigation Menu</h2>
+            <div id="footer-logo" class="logo">
+                <img src="images/logo_zm.svg" alt="Z magazine logo">
+            </div>
+
+            <section id="footer-nav" class="menu">
+                    <h2 class="hidden"> Footer Navigation</h2>
+                <nav>
+                    <h3 class="hidden">Footer clasification manu</h3>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="gallery.html">Contents</a> </li>
+                        <li><a href="#">Subscribe</a> </li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </nav>
+            </section>
+                
+                <div id="footer-newsletter" class="newsletter">
+                    <p>Subscribe To Z magazine</p>
+                    <span>Newsletter</span>
+                </div>
+            </section>
+
+            <div class="grid-con" id="email-box" >
+                <input type="email" id="sub-email" placeholder="  Enter your email address…">
+                <input id="submit_footer" name="submit" type="submit" value="SUBMIT">
+
+                <div id="footer-social" class="icon">
+                    <img src="images/facebook.svg" alt="facebook icon">
+                    <img src="images/instargram.svg" alt="instargram icon">
+                    <img src="images/twitter.svg" alt="twiter icon">
                 </div>
             </div>
-            
-            <div class="grid-con" id="contact">
-                <div id="contact-text" class="box-color">
-                </div>
-                <div id="contact-form" class="box-color">
-                </div>
-            </div> 
-        </main>
+    </footer>
 
-        <div id="footer-con">
-            <div class="grid-con" id="footer">
-                <div id="footer-logo" class="box-color">
-                </div>
-                <div id="footer-nav" class="box-color">
-                </div>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
-                <div id="footer-social" class="box-color">
-                </div>
-            </div>
-        </div>
-
-    </div> 
 </body>
 </html>
